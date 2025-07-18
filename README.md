@@ -87,14 +87,15 @@ Challenges & Solutions
   Text noise: Removed URLs, mentions, and hashtags for cleaner input
 
 Future Enhancements
-  Integrate deep learning models like LSTM or BERT
-  Use real-time Twitter API for live sentiment tracking
-  Build a dashboard for interactive sentiment visualization
+  Integrate deep learning models like LSTM or BERT.
+  Use real-time Twitter API for live sentiment tracking.
+  Build a dashboard for interactive sentiment visualization.
 
 References:
-  NLTK Documentation
-  Scikit-learn TF-IDF Vectorizer
-  Internship resources and mentor guidance
+  NLTK Documentation,
+  Scikit-learn TF-IDF Vectorizer,
+  Internship resources and mentor guidance,
 
-Acknowledgments
+Acknowledgments:
+
 These projects were developed as part of the AI & ML Virtual Internship, with guidance from mentors and support from the academic community.
