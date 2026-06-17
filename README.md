@@ -1,23 +1,23 @@
 **Handwritten Digit Recognition**
 
 
-Overview:
+**Overview:**
 This project builds a machine learning model to recognize handwritten digits using the MNIST dataset. Implemented in Python and executed in Google Colab, it demonstrates image preprocessing, model training, and evaluation.
 
 
-Tools & Technologies:
+**Tools & Technologies:**
   Python
   Libraries: NumPy, pandas, matplotlib, TensorFlow / Keras / scikit-learn
   Platform: Google Colab
 
   
-Dataset:
+**Dataset:**
   Name: MNIST (Modified National Institute of Standards and Technology)
   Source: Available via tensorflow.keras.datasets or sklearn.datasets
   Structure: 70,000 grayscale images (28x28 pixels) labeled from 0 to 9
 
   
-Workflow:
+**Workflow:**
   Step 1: Install & Import Libraries
   Step 2: Load and Preprocess the Dataset
   Step 3: Define the CNN Model
@@ -27,23 +27,23 @@ Workflow:
   Step 7: Make Predictions & Visualize Results
 
   
-Results:
+**Results:**
   Model Accuracy:90% to 99%
   Training and validation accuracy plotted
 
   
-Key Challenges:
+**Key Challenges:**
   Image reshaping and pixel normalization
   Tuning model parameters for better accuracy
 
   
-Future Improvements:
+**Future Improvements:**
   Experiment with deeper CNN architectures
   Add dropout layers to reduce overfitting
   Include GUI for digit input and real-time prediction
 
   
-References:
+**References:**
   MNIST Dataset Info
   TensorFlow and Keras documentation
   Scikit-learn model tutorials
@@ -52,23 +52,23 @@ References:
 
 **Sentiment Analysis on Twitter Data**
 
-Overview:
+**Overview:**
   This project performs sentiment analysis on tweets using machine learning techniques. It classifies tweets into positive, negative, or neutral categories, helping to understand public opinion trends. The implementation is part of my AI & ML internship and showcases my skills in data preprocessing, NLP, and model evaluation.
 
-Tools & Technologies:
+**Tools & Technologies:**
   Language: Python
   Libraries: pandas, NumPy, NLTK, scikit-learn, matplotlib
   Platform: Google Colab
   Model: Logistic Regression (can be extended to Naive Bayes, SVM, etc.)
 
-Dataset:
+**Dataset:**
   Source: Pre-cleaned Twitter dataset (CSV format)
 
-Structure:
+**Structure:**
   text: Tweet content
   sentiment: Label (positive, negative, neutral)
 
-Workflow:
+**Workflow:**
   Load and inspect dataset;
   Preprocess text (lowercasing, punctuation removal, stopword filtering);
   Tokenize and vectorize using TF-IDF;
@@ -76,27 +76,26 @@ Workflow:
   Evaluate using accuracy, precision, recall;
   Visualize sentiment distribution;
 
-Results:
+**Results:**
   Achieved accuracy of ~85% on test data
   Sentiment distribution visualized using bar plots
   Sample predictions show effective classification
 
-Challenges & Solutions
+**Challenges & Solutions:**
   Encoding issues: Resolved using UTF-8 decoding
   Imbalanced data: Addressed using stratified sampling
   Text noise: Removed URLs, mentions, and hashtags for cleaner input
 
-Future Enhancements
+**Future Enhancements:**
   Integrate deep learning models like LSTM or BERT.
   Use real-time Twitter API for live sentiment tracking.
   Build a dashboard for interactive sentiment visualization.
 
-References:
+**References:**
   NLTK Documentation,
   Scikit-learn TF-IDF Vectorizer,
   Internship resources and mentor guidance,
 
 
-Acknowledgments:
-
+**Acknowledgments:**
 These projects were developed as part of the AI & ML Virtual Internship, with guidance from mentors and support from the academic community.
